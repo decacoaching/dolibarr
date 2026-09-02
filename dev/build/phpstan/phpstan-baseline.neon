@@ -349,12 +349,6 @@ parameters:
 			path: ../../../htdocs/admin/boxes.php
 
 		-
-			message: '#^Call to function is_null\(\) with null will always evaluate to true\.$#'
-			identifier: function.alreadyNarrowedType
-			count: 1
-			path: ../../../htdocs/admin/dict.php
-
-		-
 			message: '#^Loose comparison using \!\= between ''create'' and ''edit'' will always evaluate to true\.$#'
 			identifier: notEqual.alwaysTrue
 			count: 1
@@ -3136,12 +3130,6 @@ parameters:
 			message: '#^Call to function is_array\(\) with list will always evaluate to true\.$#'
 			identifier: function.alreadyNarrowedType
 			count: 2
-			path: ../../../htdocs/core/class/html.formticket.class.php
-
-		-
-			message: '#^Call to function is_array\(\) with list\<non\-falsy\-string\> will always evaluate to true\.$#'
-			identifier: function.alreadyNarrowedType
-			count: 1
 			path: ../../../htdocs/core/class/html.formticket.class.php
 
 		-
